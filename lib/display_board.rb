@@ -6,3 +6,4 @@ def display_board
   row = cell + divider + cell + divider + cell
   puts [row, divider, row, divider, row]
 end
+display_board
