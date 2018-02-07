@@ -4,6 +4,6 @@ def display_board
   divider = "|"
   line = "-----------"
   row = cell + divider + cell + divider + cell
-  puts [row, divider, row, divider, row]
+  puts [row, line, row, line, row]
 end
 display_board
